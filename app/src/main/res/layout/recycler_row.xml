@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/relLayout"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_bg">
+    <TextView
+        android:id="@+id/txtPersonName"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Person Name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:textColor = "@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtPhoneNum"
+        android:textSize="18sp"
+        android:layout_below="@id/txtPersonName"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:text="Phone Number"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:background="@android:drawable/ic_menu_edit" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnEdit"
+        android:layout_alignBottom="@+id/btnEdit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/ic_menu_delete" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Contacts Manager</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_popup_title">Add Contact</string>
+    <string name="edit_popup_title">Edit Contact</string>
+    <string name="hint_name">Enter the Name</string>
+    <string name="hint_phoneNo">Enter Phone No.</string>
+    <string name="btnSave_text">Save</string>
+    <string name="btnCancel_text">Cancel</string>
+    <string name="delete_popup_title">Are you sure ?</string>
+    <string name="btnNo_text">No</string>
+    <string name="btnYes_text">Yes</string>
+</resources>
